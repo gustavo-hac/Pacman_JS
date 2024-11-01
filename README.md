@@ -1,2 +1,3 @@
 # Pacman_JS
- Just a pseudo pacman with basic functions (HTML and JS)
+ Pacman with basic functions in HTML and JS.
+ To run, just need to open "index.html" file.
