@@ -11,8 +11,10 @@ let playerLife = 3
 let currentmap = 0
 let currentPowerUps = 0
 
-canvas.height = innerHeight
-canvas.width = innerWidth
+// Determina o tamnaho do canvas. 
+// OBS: Para mapas de tamanhos diferentes é necesário alterar o valor, ex: 520x560px(13x14 elemtentos), cada elemento visual esta como 40px.
+canvas.height = 440
+canvas.width = 440
 
 class Boundary {
   static width = 40
@@ -26,7 +28,6 @@ class Boundary {
   draw() {
     // c.fillStyle = 'red'
     // c.fillRect(this.position.x, this.position.y, this.width, this.height)
-
     // c.drawImage(this.image, this.position.x, this.position.y, 40, 40)
     c.drawImage(this.image, this.position.x, this.position.y)
   }
